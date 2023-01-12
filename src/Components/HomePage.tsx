@@ -109,9 +109,7 @@ function HomePage({ setView }: { setView: any }) {
         </Card>
         <div style={{}} className="videoIcon_container">
           <img
-            style={{
-              width: "100%",
-            }}
+         
             className="videoIcon"
             src={videoIcons}
           />

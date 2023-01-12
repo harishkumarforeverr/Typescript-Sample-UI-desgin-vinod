@@ -77,9 +77,9 @@
   font-size: 1.3rem;
   color: #438488;
 }
-.videoIcon {
+/* .videoIcon {
   width: 85%;
-}
+} */
 
 .hardware {
   display: flex;
@@ -91,15 +91,17 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 .Gettingstarted {
-  display: flex;
+  display: grid;
   gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media screen and (max-width: 1450px) {
   .optizmationWidget,
   .Gettingstarted {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr !important;
   }
 }
 

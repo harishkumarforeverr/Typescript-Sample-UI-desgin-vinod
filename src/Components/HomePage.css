@@ -75,7 +75,9 @@
   color: #438488;
 }
 .videoIcon {
-  width: 85%;
+  /* width: 85%; */
+  width: 625px;
+  height: 373px;
 }
 
 @media screen and (max-width: 1350px) {
@@ -88,9 +90,9 @@
     /* margin: 0 auto; */
     width: 26rem;
   }
-  /* .videoIcon {
-    width: 55% !important;
-  } */
+  .videoIcon {
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 950px) {
   .cardsRigghtContainer {
